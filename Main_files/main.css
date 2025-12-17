@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(thumb-1920-1346679.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;           
+  margin: 0;
+}
+
+/* Contenedor general */
+
+section{
+  max-width: 1500px;
+  display: flex;
+  justify-self: center;
+  display: flex;
+}
+
+
+.container {
+  display: flex;
+  margin-left: 120px;
+  margin-right: 120px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+
+
+}
+
+/* Caja */
+.box {
+  background-color: rgba(0, 0, 0, 0.39);
+  color: white;
+  height: 200px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+  backdrop-filter: blur(14px);
+  border: solid 2px rgba(255, 255, 255, 0.226);
+
+}
+
+/* Texto */
+.box h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.box p {
+  font-size: 16px;
+}
